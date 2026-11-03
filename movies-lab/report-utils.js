@@ -4,7 +4,7 @@ export const getShortMovies = movies =>
   movies.filter(movie => movie.duration < 100);//2
 
 export const findByTitle = (movies, title) =>
-  movies.find(movie => movie.title === title);
+  movies.find(movie => movie.title === title);//3
 
 export const getOscarsLine = movie => `Oscars:${movie.awards.oscars}`;
 
