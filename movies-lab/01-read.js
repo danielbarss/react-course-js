@@ -10,4 +10,4 @@ const data = JSON.parse(text);
 console.log(typeof data);
 console.log(data.site);
 console.log(data.movies.length);
-console.log("gfdgdgdg");
+
